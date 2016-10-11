@@ -10,8 +10,8 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.ViewHolder> 
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        public ViewHolder(View parent) {
-            super(parent);
+        public ViewHolder(View itemRoot) {
+            super(itemRoot);
         }
     }
 
