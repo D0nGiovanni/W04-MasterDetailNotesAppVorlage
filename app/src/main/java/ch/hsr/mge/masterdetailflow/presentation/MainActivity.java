@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements ItemSelectionList
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        if (findViewById(R.id.notesDetailContainer) != null) {
+        if (findViewById(R.id.noteDetailContainer) != null) {
             // Wir befinden uns im Tablet-Modus!
             isTwoPaneMode = true;
         }
